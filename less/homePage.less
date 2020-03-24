@@ -1,0 +1,44 @@
+.home{
+    .intro{
+        img{
+            margin: 10px 0;
+        }
+        .textContent{
+            margin: auto auto 10px;
+            width: 90%;
+            .flexDisplay(center, flex-start);
+            flex-direction: column;
+            h4{
+                margin: 10px 0;
+            }//end h4
+            p{
+                margin: 10px 0;
+            }//end p
+        }//end .textContent
+    }//end .intro
+
+    .mainContent{
+        width: 90%;
+        .flexDisplay(flex-end, flex-start);
+        img{
+            margin: 10px 0;
+        }
+
+        .textContent{
+            width: 50%;
+            margin-left: 5%;
+            h4{
+                margin: 10px 0;
+            }//end h4
+            p{
+                margin: 10px 0;
+            }//end p
+            @media @mobile{
+                width: 100%;
+            }
+        }//end .textContent
+        @media @mobile{
+            flex-direction: column;
+        }
+    }
+}

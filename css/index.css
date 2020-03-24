@@ -1,0 +1,257 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+* {
+  box-sizing: border-box;
+  color: lightgrey;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  font-family: 'Playfair Display', serif;
+}
+body {
+  background-color: black;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Playfair Display', serif;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+}
+h4 {
+  font-size: 2.5rem;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+}
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+@media (max-width: 500px) {
+  .container {
+    width: 90%;
+    margin: 0 5%;
+  }
+}
+a {
+  text-decoration: none;
+  color: lightgrey;
+  font-size: 1.8rem;
+}
+.mainNavigation {
+  margin: 25px;
+}
+.mainNavigation .navContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.mainNavigation .navContainer .nav {
+  width: 25%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  .mainNavigation .navContainer .nav {
+    flex-direction: column;
+  }
+}
+@media (max-width: 500px) {
+  .mainNavigation .navContainer a {
+    padding: 0.5rem 0;
+  }
+}
+.mainNavigation .navContainer a:hover {
+  color: green;
+}
+.home .intro img {
+  margin: 10px 0;
+}
+.home .intro .textContent {
+  margin: auto auto 10px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.home .intro .textContent h4 {
+  margin: 10px 0;
+}
+.home .intro .textContent p {
+  margin: 10px 0;
+}
+.home .mainContent {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+.home .mainContent img {
+  margin: 10px 0;
+}
+.home .mainContent .textContent {
+  width: 50%;
+  margin-left: 5%;
+}
+.home .mainContent .textContent h4 {
+  margin: 10px 0;
+}
+.home .mainContent .textContent p {
+  margin: 10px 0;
+}
+@media (max-width: 500px) {
+  .home .mainContent .textContent {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .home .mainContent {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,21 @@
+.mainNavigation{
+    margin: 25px;
+    .navContainer{
+        .flexDisplay(space-between, center);
+        .nav{
+            width: 25%;
+            .flexDisplay(space-between, center);
+            @media @mobile{
+                flex-direction: column;
+            }
+        }
+        a{
+            @media @mobile{
+                padding: 0.5rem 0;
+            }
+        }
+        a:hover{
+            color: green;
+        }
+    }
+}
