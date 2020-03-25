@@ -10,13 +10,13 @@ const siteContent = {
     },
     "intro": {
         //could possibly change the h4 to h3 if needed
-        "imgSrc": "img/SierraMadreBanner.jpg",
+        "imgSrc": "img/SierraMadreBeforeTheWar.png",
         "imgAlt": "Sierra Madre Casino Banner",
         "h4": "Welcome to the Sierra Madre, Begin Again!",
         "p": "The Sierra Madre Casino and Villa, one of Frederick Sinclair's latest ventures. In this time of seemingly imminent war, Frederick Sinclair has decided to build a refuge for those seeking to begin again. With construction of the casino closing in on its final stages, it's time to take a look at what the Sierra Madre has to offer.",
     },
     "mainContent": {
-        "imgSrc": "img/SierraMadreCasinoFront.jpg",
+        "imgSrc": "img/SierraMadrePoster.jpg",
         "h4": "Grand Opening",
         "p": "Has your life taken a turn? Do troubles beset you? Has fortune left you behind? If so, the Sierra Madre Casino, in all its glory, is inviting you to begin again. Come to a place where wealth, excitement and intrigue await around every corner. Stroll along the winding streets of our beautiful resort, make new friends, or rekindle old flames. Let your eyes take in the luxurious expanse of the open desert under clear star-lit skies. Gaze straight on into the sunset from our villa rooftops. Countless diversions await: Gamble in our casino, take in the theater, or stay in one of our exclusive executive suites that will shelter you and cater to your every whim. So if life's worries have weighed you down, if you need an escape from your troubles, or if you just need an opportunity to begin again, join us, let go, and leave the world behind at the Sierra Madre grand opening this October... We'll be waiting.",
     },
