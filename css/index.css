@@ -183,11 +183,16 @@ a {
   font-size: 1.8rem;
 }
 .mainNavigation {
-  margin: 25px;
+  padding: 5px;
+  margin: auto;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 1000px;
 }
 .mainNavigation .navContainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .mainNavigation .navContainer .nav {
@@ -248,10 +253,12 @@ a {
 @media (max-width: 500px) {
   .home .mainContent .textContent {
     width: 100%;
+    margin-left: 0;
   }
 }
 @media (max-width: 500px) {
   .home .mainContent {
+    width: 100%;
     flex-direction: column;
   }
 }
