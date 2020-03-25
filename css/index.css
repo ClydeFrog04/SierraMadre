@@ -183,11 +183,21 @@ a {
   font-size: 1.8rem;
 }
 .mainNavigation {
-  margin: 25px;
+  width: 100%;
+  max-width: 1200px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  background-color: black;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
 }
 .mainNavigation .navContainer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 .mainNavigation .navContainer .nav {
@@ -209,8 +219,13 @@ a {
 .mainNavigation .navContainer a:hover {
   color: green;
 }
+@media (max-width: 500px) {
+  .mainNavigation {
+    width: 95%;
+  }
+}
 .home .intro img {
-  margin: 10px 0;
+  margin: 90px 0;
 }
 .home .intro .textContent {
   margin: auto auto 10px;
@@ -234,6 +249,7 @@ a {
 }
 .home .mainContent img {
   margin: 10px 0;
+  max-width: 400px;
 }
 .home .mainContent .textContent {
   width: 50%;
@@ -248,10 +264,12 @@ a {
 @media (max-width: 500px) {
   .home .mainContent .textContent {
     width: 100%;
+    margin-left: 0;
   }
 }
 @media (max-width: 500px) {
   .home .mainContent {
+    width: 100%;
     flex-direction: column;
   }
 }

@@ -1,7 +1,17 @@
 .mainNavigation{
-    margin: 25px;
+    width: 100%;
+    max-width: 1200px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    background-color: black;
+    //margin: auto;
+    .border();
     .navContainer{
-        .flexDisplay(space-between, center);
+        .flexDisplay(space-around, center);
         .nav{
             width: 25%;
             .flexDisplay(space-between, center);
@@ -17,5 +27,8 @@
         a:hover{
             color: green;
         }
+    }//end .navContainer
+    @media @mobile{
+        width: 95%;
     }
 }

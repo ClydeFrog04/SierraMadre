@@ -1,7 +1,7 @@
 .home{
     .intro{
         img{
-            margin: 10px 0;
+            margin: 90px 0;//was 10px, if need to be reset
         }
         .textContent{
             margin: auto auto 10px;
@@ -22,6 +22,7 @@
         .flexDisplay(flex-end, flex-start);
         img{
             margin: 10px 0;
+            max-width: 400px;
         }
 
         .textContent{
@@ -35,10 +36,12 @@
             }//end p
             @media @mobile{
                 width: 100%;
+                margin-left: 0;
             }
         }//end .textContent
         @media @mobile{
+            width: 100%;
             flex-direction: column;
         }
-    }
+    }//end .mainContent
 }
