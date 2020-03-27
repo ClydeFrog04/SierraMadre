@@ -225,7 +225,7 @@ a {
   }
 }
 .home .intro img {
-  margin: 90px 0;
+  margin: 110px 0;
 }
 .home .intro .textContent {
   margin: auto auto 10px;
@@ -241,6 +241,11 @@ a {
 .home .intro .textContent p {
   margin: 10px 0;
 }
+@media (max-width: 500px) {
+  .home .intro .textContent {
+    width: 100%;
+  }
+}
 .home .mainContent {
   width: 90%;
   display: flex;
@@ -250,6 +255,11 @@ a {
 .home .mainContent img {
   margin: 10px 0;
   max-width: 400px;
+}
+@media (max-width: 500px) {
+  .home .mainContent img {
+    max-width: 200px;
+  }
 }
 .home .mainContent .textContent {
   width: 50%;
@@ -265,6 +275,11 @@ a {
   .home .mainContent .textContent {
     width: 100%;
     margin-left: 0;
+  }
+}
+@media (max-width: 500px) {
+  .home .mainContent .textContent {
+    width: 100%;
   }
 }
 @media (max-width: 500px) {

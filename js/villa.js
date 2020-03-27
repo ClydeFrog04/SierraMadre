@@ -12,13 +12,13 @@ const siteContent = {
         //could possibly change the h4 to h3 if needed
         "imgSrc": "img/SierraMadreBeforeTheWar.png",
         "imgAlt": "Sierra Madre Casino Banner",
-        "h4": "Welcome to the Sierra Madre, Begin Again!",
-        "p": "The Sierra Madre Casino and Villa, one of Frederick Sinclair's latest ventures. In this time of seemingly imminent war, Frederick Sinclair has decided to build a refuge for those seeking to begin again. With construction of the casino closing in on its final stages, it's time to take a look at what the Sierra Madre has to offer.",
+        "h4": "Sierra Madre Villa",
+        "p": "At the Sierra Madre Casino and Villa, we want your stay to be safe and luxurious. That's why we made the Villa. The Sierra Madre Villa is your new home. Once you step inside your room you'll find yourself relaxing like you never new possible.",
     },
     "mainContent": {
-        "imgSrc": "img/SierraMadrePoster.jpg",
-        "h4": "Grand Opening",
-        "p": "Has your life taken a turn? Do troubles beset you? Has fortune left you behind? If so, the Sierra Madre Casino, in all its glory, is inviting you to begin again. Come to a place where wealth, excitement and intrigue await around every corner. Stroll along the winding streets of our beautiful resort, make new friends, or rekindle old flames. Let your eyes take in the luxurious expanse of the open desert under clear star-lit skies. Gaze straight on into the sunset from our villa rooftops. Countless diversions await: Gamble in our casino, take in the theater, or stay in one of our exclusive executive suites that will shelter you and cater to your every whim. So if life's worries have weighed you down, if you need an escape from your troubles, or if you just need an opportunity to begin again, join us, let go, and leave the world behind at the Sierra Madre grand opening this October... We'll be waiting.",
+        "imgSrc": "img/SierraMadreSideBarPoster.jpg",
+        "h4": "About the Villa",
+        "p": "The Villa is our take on a village. Each building is connected by narrow streets so you can get from your room to the theater or casino with ease. The narrow streets prevents vehicle access, so you can rest without the noise and polution of a city. On every corner of the Villa streets you'll find our Sierra Madre vending machines developed for us by the Big MT, which dispenses numerous items in exchange for Sierra Madre chips, the last currency you'll ever need.",
     },
     "contact": {
         "contact-h4" : "Contact",

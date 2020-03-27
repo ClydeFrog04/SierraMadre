@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5e7dbe3-f5f4-42f5-acab-9a2bdb0e8670" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/SierraMadreBeforeTheWar.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/villa.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/villa.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/terminal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terminal.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/villa.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/villa.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/less/homePage.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/homePage.less" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/navigation.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/navigation.less" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +63,9 @@
       <workItem from="1585011363235" duration="2971000" />
       <workItem from="1585019981636" duration="601000" />
       <workItem from="1585094066982" duration="6112000" />
-      <workItem from="1585105557149" duration="154000" />
+      <workItem from="1585105557149" duration="1984000" />
+      <workItem from="1585183584101" duration="2086000" />
+      <workItem from="1585267644717" duration="289000" />
     </task>
     <servers />
   </component>
