@@ -254,7 +254,7 @@ a {
 }
 .home .mainContent img {
   margin: 10px 0;
-  max-width: 400px;
+  max-width: 350px;
 }
 @media (max-width: 500px) {
   .home .mainContent img {
