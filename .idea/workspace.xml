@@ -2,23 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5e7dbe3-f5f4-42f5-acab-9a2bdb0e8670" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/casino.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon/android-chrome-512x512.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon/site.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/js/casino.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/terminal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/less/homePage.less" beforeDir="false" afterPath="$PROJECT_DIR$/less/homePage.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/casino.html" beforeDir="false" afterPath="$PROJECT_DIR$/casino.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/casino.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/casino.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/terminal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/villa.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/villa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/terminal.html" beforeDir="false" afterPath="$PROJECT_DIR$/terminal.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/villa.html" beforeDir="false" afterPath="$PROJECT_DIR$/villa.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="SierraMadre" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -49,9 +53,14 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="Less" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WebDev\SierraMadre\src" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WebDev\SierraMadre" />
       <recent name="D:\WebDev\SierraMadreSite\less" />
     </key>
   </component>
@@ -71,7 +80,12 @@
       <workItem from="1585094066982" duration="6112000" />
       <workItem from="1585105557149" duration="1984000" />
       <workItem from="1585183584101" duration="2086000" />
-      <workItem from="1585267644717" duration="4039000" />
+      <workItem from="1585267644717" duration="4871000" />
+      <workItem from="1585315429998" duration="140000" />
+      <workItem from="1585348301668" duration="3000" />
+      <workItem from="1585348323229" duration="4015000" />
+      <workItem from="1585419914719" duration="6185000" />
+      <workItem from="1586917406057" duration="625000" />
     </task>
     <servers />
   </component>
@@ -80,5 +94,27 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="549" y="212" width="438" height="491" key="FileChooserDialogImpl" timestamp="1585426671538">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state x="549" y="212" width="438" height="491" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1585426671538" />
+    <state width="1515" height="223" key="GridCell.Tab.0.bottom" timestamp="1585454691098">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="223" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1585454691098" />
+    <state width="1515" height="223" key="GridCell.Tab.0.center" timestamp="1585454691097">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="223" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1585454691097" />
+    <state width="1515" height="223" key="GridCell.Tab.0.left" timestamp="1585454691097">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="223" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1585454691097" />
+    <state width="1515" height="223" key="GridCell.Tab.0.right" timestamp="1585454691098">
+      <screen x="0" y="0" width="1536" height="864" />
+    </state>
+    <state width="1515" height="223" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1585454691098" />
   </component>
 </project>
